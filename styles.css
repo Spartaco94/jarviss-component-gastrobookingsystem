@@ -1,0 +1,33 @@
+```css
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: #FFC107;
+  --text-color: #333;
+}
+
+.gastro-booking-system {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .gastro-booking-system {
+    padding: 10px;
+  }
+}
+```
